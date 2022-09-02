@@ -22,7 +22,9 @@ class _KnucklebonesState extends State<Knucklebones> {
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: const [
-              Center(child: Text('Knucklebones')),
+              Center(
+                child: Text('Knucklebones'),
+              ),
             ],
           ),
         ),
